@@ -1,4 +1,4 @@
-# # Programming Foundations Lesson 2.4: Functions
+# Programming Foundations Lesson 2.4: Functions
 
 ## Exercise 1
 
