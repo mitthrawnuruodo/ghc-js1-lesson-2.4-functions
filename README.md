@@ -42,6 +42,25 @@ Console.log out the corrsponding degrees in celsius, for the following degrees i
 
 ## Exercise 4
 
+Given two paragraphs in your HTML, with the ids `emptyParagraph` and `anotherParagraph`:
+
+```html
+<p id="emptyParagraph"></p>
+<p id="anotherParagraph"></p>
+```
+
+a) Make a function called `writeToPage()`, that takes one argument, and writes that value of the argument at text inside the `p#emptyParagraph` element.
+
+Invoke the function with an appropriate argument.
+
+b) Extend the function from a to take a second argument, `element`, use the value of that parameter to target any element with that name.
+
+Invole the new/extended function, with an appropriate first argument and "anotherParagraph" as the second argument.
+
+c) [Level 2] If the element given in b doesn't exist, make a console **error**, with the text: `"The given element, " + element + ", doesn't exist."`
+
+Invole the new/extended function, with an appropriate first argument and "whatever" as the second argument. 
+
 ## Exercise 5
 
 ## Exercise 6
