@@ -32,8 +32,7 @@ a) Make a function `toFarenheit()` that given one argument, the temperature in c
 
 Console.log out the corrsponding degrees in farenheit, for the following degrees in calsius `-40`, `0`, `37` and `100`.
 
-b)
-a) Make a function `toCelsius()` that given one argument, the temperature in farenheit, returns the corresponding temperature in celsius.
+b) Make a function `toCelsius()` that given one argument, the temperature in farenheit, returns the corresponding temperature in celsius.
 
 Console.log out the corrsponding degrees in celsius, for the following degrees in farenheit `-40`, `32`, `98.6` and `212`.
 
@@ -49,11 +48,11 @@ Given two paragraphs in your HTML, with the ids `emptyParagraph` and `anotherPar
 <p id="anotherParagraph"></p>
 ```
 
-a) Make a function called `writeToPage()`, that takes one argument, and writes that value of the argument at text inside the `p#emptyParagraph` element.
+a) Make a function called `writeToPage()`, that takes one parameter, and writes that value of the parameter at text inside the `p#emptyParagraph` element.
 
 Invoke the function with an appropriate argument.
 
-b) Extend the function from a to take a second argument, `element`, use the value of that parameter to target any element with that name.
+b) Extend the function from a to take a second parameter, `element`, use the value of that parameter to target any element with that name.
 
 Invole the new/extended function, with an appropriate first argument and "anotherParagraph" as the second argument.
 
