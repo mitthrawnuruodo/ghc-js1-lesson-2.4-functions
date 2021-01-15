@@ -28,14 +28,14 @@ Mathematically you can calculate one from the other in these ways:
      -------
        9/5
 ```
-a) Make a function toFarenheit() that given one argument, the temperature in celsius, returns the corresponding temperature in farenheit.
+a) Make a function `toFarenheit()` that given one argument, the temperature in celsius, returns the corresponding temperature in farenheit.
 
-Console.log out the corrsponding degrees in farenheit, for the following degrees in calsius -40, 0, 37 and 100.
+Console.log out the corrsponding degrees in farenheit, for the following degrees in calsius `-40`, `0`, `37` and `100`.
 
 b)
-a) Make a function toCelsius() that given one argument, the temperature in farenheit, returns the corresponding temperature in celsius.
+a) Make a function `toCelsius()` that given one argument, the temperature in farenheit, returns the corresponding temperature in celsius.
 
-Console.log out the corrsponding degrees in celsius, for the following degrees in farenheit -40, 32, 98.6 and 212.
+Console.log out the corrsponding degrees in celsius, for the following degrees in farenheit `-40`, `32`, `98.6` and `212`.
 
 > Tip: Mind your parenthesis, and note that the solution to one of these can be found on [W3School](https://www.w3schools.com/js/js_functions.asp).
 
@@ -63,17 +63,47 @@ Invole the new/extended function, with an appropriate first argument and "whatev
 
 ## Exercise 5
 
+Given a button and an empty ordered list in your HTML, like this: 
+
+```html
+<button onclick="listItems()">Press Me, I dare you</button>
+<ol id="myList"></ol>
+```
+
+And a list of programming languages.
+
+```js
+let programmingLanguages = [
+    "Python",
+    "JavaScript", 
+    "Java", 
+    "C#", 
+    "C", 
+    "C++", 
+    "Go", 
+    "R", 
+    "Swift", 
+    "PHP"
+];
+```
+
+Make a function `listItems()` that sorts the list `programmingLanguages` alfabetically, and list them in individual list items in the `ol#myList` element on the page.
+
+Press the button on the webpage to invoke the function.
+
+> Hint: To make a list element it's sufficient here to make something like `"<li>" + value + "</li>"`;
+
 ## Exercise 6
 
-Note: In 3a the result from toFarenheit(37) may be logged out as 98.60000000000001. Normally we don't want that many decimal points.
+Note: In 3a the result from toFarenheit(37), or another value, may be logged out as `98.60000000000001`. Normally we don't want that many decimal points.
 
-a) Based on toFarenheit(), make a new function toFarenheitPrecise, that takes to arguments, the temperature in celsius, and the precision (the numbers of decimal points) that returns a float with the required level of precision.
+a) Based on `toFarenheit()`, make a new function `toFarenheitPrecise()`, that takes two arguments, the temperature in celsius, and the precision (the numbers of decimal points), that returns a float with the required level of precision.
 (Level 2: Make the default value for the precision 2)
 
-Console.log out the corrsponding degrees in farenheit, for the following degrees in calsius -40, 0, 37 and 100.
+Console.log out the corrsponding degrees in farenheit, for the following degrees in calsius `-40`, `0`, `37` and `100`.
 
-b) Do the same based on toCelsius()
+b) Do the same based on `toCelsius()`, in a new `toCelsiusPrecise()` function.
 
-Console.log out the corrsponding degrees in celsius, for the following degrees in farenheit -40, 32, 98.6 and 212.
+Console.log out the corrsponding degrees in celsius, for the following degrees in farenheit `-40`, `32`, `98.6` and `212`.
 
 > Tip: Use [Number.toFixed()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
