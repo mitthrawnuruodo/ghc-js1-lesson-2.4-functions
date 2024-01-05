@@ -1,4 +1,4 @@
-# Programming Foundations Lesson 2.4: Functions
+# JavaScript 1 Lesson 2.4: Functions
 
 ## Exercise 1
 
